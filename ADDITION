@@ -1,0 +1,22 @@
+import java.util.*;
+class Addition
+{
+	public static void main(String arg[])
+	{
+		Scanner sc=new Scanner(System.in);
+
+		System.out.print("Enter a:");
+		double a=sc.nextDouble();
+
+		System.out.print("Enter b:");
+		double b=sc.nextDouble();
+	
+		System.out.print("Enter c:");
+		double c=sc.nextDouble();
+
+		double x=(a+b+c)/(4*a*a);
+		System.out.println("value of x:"+x);
+
+		sc.close();
+	}
+}

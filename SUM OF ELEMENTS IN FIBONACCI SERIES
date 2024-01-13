@@ -1,0 +1,23 @@
+import java.util.*;
+class Fibonaccis
+{
+	public static void main(String arg[])
+	{
+		Scanner sc=new Scanner(System.in);
+		int a,b,n,t,x;
+		System.out.print("enter the number of terms");
+		t=sc.nextInt();
+		System.out.println("fibonacci series upto"+ t +"terms");
+		a=0;b=1;x=0;
+		for(int i=0;i<t;i++)
+		{
+			System.out.print(a+" ");
+			x=x+a;
+			n=a+b;
+			a=b;
+			b=n;
+		}
+		System.out.println("sum="+ x );
+	
+	}
+}	

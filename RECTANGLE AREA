@@ -1,0 +1,15 @@
+import java.util.*;
+class Rectangle
+{
+	public static void main(String arg[])
+	{
+		Scanner sc=new Scanner(System.in);
+		Double b,h,x;
+		Double a;
+		a=sc.nextDouble();
+		b=sc.nextDouble();
+		h=sc.nextDouble();
+		x=(a *b*h);
+		System.out.println("output="+x);
+    	}
+}
